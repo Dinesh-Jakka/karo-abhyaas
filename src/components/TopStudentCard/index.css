@@ -1,0 +1,46 @@
+.link-item {
+  text-decoration: none;
+  margin-bottom: 48px;
+  width: 350px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .link-item {
+    width: 300px;
+  }
+}
+
+.student-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.thumbnail {
+  width: 100%;
+  max-height: 150px;
+  max-width: 150px;
+  border-radius: 6px;
+}
+
+.title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.text {
+  color: #594d6d;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+

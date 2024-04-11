@@ -1,0 +1,45 @@
+.video-thumbnail{
+    height: 200px;
+    width: 300px;
+    margin-right: 10px;
+}
+.video-card{
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000000;
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  .video-card {
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+  }
+  .video-thumbnail{
+    width: 80vw;
+  }
+  .practice-btn-container{
+    display: flex;
+    justify-content: center;
+  }
+}
+    
+.link{
+    text-decoration: none;
+}
+.practice-btn{
+    color: aliceblue;
+    border-width: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(30, 34, 34);
+    cursor: pointer;
+}
+.video-card-text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}

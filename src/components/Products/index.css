@@ -1,0 +1,21 @@
+.search-input-container{
+    width: 90vw;
+    display: flex;
+    border: solid 1px;
+    padding: 5px;
+}
+@media screen and (max-width: 768px) {
+  .search-input-container {
+    margin-top: 45px;
+  }
+}
+
+.search-input{
+    width: 90%;
+    border-width: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.products-container{
+    padding: 20px;
+}

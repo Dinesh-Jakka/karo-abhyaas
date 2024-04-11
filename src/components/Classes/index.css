@@ -1,0 +1,10 @@
+.classes-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.all-classes-container{
+    list-style-type: none;
+}

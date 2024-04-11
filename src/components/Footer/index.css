@@ -1,0 +1,17 @@
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  border-top: 2px solid rgb(243, 243, 243);
+  padding-right: 30px;
+}
+
+
+.footer-menu-item {
+  font-family: 'Roboto';
+  margin: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
