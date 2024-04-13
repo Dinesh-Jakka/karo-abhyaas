@@ -2,11 +2,11 @@ import './index.css'
 
 const VideoCard = (props) => {
   const { videoDetails } = props;
-  const { thumbnailUrl, title, id, description } = videoDetails;
+  const { thumbnailUrl, title, description } = videoDetails;
 
  return (
      <li className="video-card">
-       <img src={thumbnailUrl} className="video-thumbnail" />
+       <img alt='thumbnail' src={thumbnailUrl} className="video-thumbnail" />
        <div className="video-card-text-content">
          <p>{title}</p>
          <p>{description}</p>

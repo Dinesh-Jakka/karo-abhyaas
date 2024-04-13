@@ -1,0 +1,44 @@
+.item-img{
+    height: 100px;
+    width: 100px;
+}
+.cart-list-item{
+    background-color: rgb(237, 250, 124);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.deletebtn{
+    background-color: orangered;
+    color: aliceblue;
+    border-radius: 10px;
+    border: solid 1px #000000; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.price{
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+    background-color: blue;
+}
+.delete-product-popup{
+    background-color: lightgrey;
+    padding: 20px;
+}
+.btns-container{
+    display: flex;
+    justify-content: space-around;
+}
+.cancel-btn{
+    background-color: orchid;
+    color: aliceblue;
+    border-radius: 10px;
+    border: solid 1px #000000; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

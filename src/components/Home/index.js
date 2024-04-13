@@ -1,5 +1,5 @@
 import Cookies from "js-cookie";
-import { Redirect, Link } from "react-router-dom";
+import { Redirect } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -89,24 +89,28 @@ const Home = () => {
           <Slider className="slider-container" {...settings}>
             <div>
               <img
+                alt="slider img"
                 className="slider-img"
                 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.EVvRAZGcN4jtQRQf3VDJCAAAAA%26pid%3DApi&f=1&ipt=c2d7bbee11ef8aab2f8bd7fbe112a0f8b4f548968b457b15c0535c3dad4d8bb3&ipo=images"
               />
             </div>
             <div>
               <img
+                alt="slider img"
                 className="slider-img"
                 src="https://dk7h1f5gq849l.cloudfront.net/subscription_photos/1677325885.NEETFC01.png"
               />
             </div>
             <div>
               <img
+                alt="slider img"
                 className="slider-img"
                 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.b8dO1S6LDhISwlGjoQon2gHaB6%26pid%3DApi&f=1&ipt=3a0154b3e4df932afc61d4ccefb6025ed61507bb532cac10b459aa797b6c1c83&ipo=images"
               />
             </div>
             <div>
               <img
+                alt="slider img"
                 className="slider-img"
                 src="https://blogs.mcqdb.com/darwin/wp-content/uploads/sites/3/2021/08/NEET-Prep-tips.jpg"
               />

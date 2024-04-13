@@ -1,3 +1,14 @@
+# KARO_ABHYAAS 
+# ROUTES 
+# 1 Home 
+# 2 Classes 
+# 3 Product 
+# 4 Cart 
+# 5 Account 
+# 6 Login 
+# 7 Signup 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

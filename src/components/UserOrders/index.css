@@ -1,0 +1,30 @@
+.order-list-container{
+    list-style-type: none;
+    border: solid 1px;
+    width: 100%;
+}
+.order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px;
+}
+.order-type-container{
+    display: flex;
+}
+.order-title{
+    font-weight: bold;
+}
+.order-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.order-option-btn{
+    color: #ffffff;
+    background-color: black;
+    padding: 5px;
+    border: 0px;
+    margin: 5px;
+}

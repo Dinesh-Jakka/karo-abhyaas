@@ -33,7 +33,9 @@ const Header = (props) => {
     <nav className="nav-header">
       <div className="nav-content">
         <div className="nav-bar-logo-container">
-          <Link className='website-logo' to="/">Karo Abhayaas</Link>
+          <Link className="website-logo" to="/">
+            Karo Abhayaas
+          </Link>
 
           <button type="button" className="nav-mobile-btn">
             <img
@@ -48,7 +50,7 @@ const Header = (props) => {
         <div className="nav-bar-large-container">
           <ul className="nav-menu">
             <li className="nav-menu-item">
-              <Link to="/" className="nav-link join-us-link">
+              <Link to="/sign-up" className="nav-link">
                 JOIN US
               </Link>
             </li>
@@ -72,7 +74,7 @@ const Header = (props) => {
             </li>
 
             <li className="nav-menu-item">
-              <Link to="/about-us" className="nav-link">
+              <Link to="/account" className="nav-link">
                 <span className="material-symbols-outlined">person</span>
               </Link>
             </li>
@@ -100,7 +102,7 @@ const Header = (props) => {
       <div className="nav-menu-mobile">
         <ul className="nav-menu-list-mobile">
           <li className="nav-menu-item-mobile">
-            <Link to="/" className="nav-link join-us-link">
+            <Link to="/sign-up" className="nav-link">
               JOIN US
             </Link>
           </li>
@@ -124,7 +126,7 @@ const Header = (props) => {
           </li>
 
           <li className="nav-menu-item-mobile">
-            <Link to="/about-us" className="nav-link">
+            <Link to="/account" className="nav-link">
               <span className="material-symbols-outlined">person</span>
             </Link>
           </li>

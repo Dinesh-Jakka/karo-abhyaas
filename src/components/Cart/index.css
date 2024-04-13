@@ -1,8 +1,32 @@
 .cart-container{
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     margin-top: 50px;
     text-align: center;
+    min-height: 70vh;
+}
+@media screen and (min-width: 768px) {
+  .cart-container{
+    margin-top: 30px;
+  }
+}
+.cart-list-container{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.cart-header-container{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgb(247, 137, 68);
+  align-items: center;
+}
+.remove-btn{
+  background-color: blueviolet;
+  border: solid 1px;
+  font-weight: bold;
+  padding: 10px;
+  color: #ffffff;
 }

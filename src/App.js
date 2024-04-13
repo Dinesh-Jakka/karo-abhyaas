@@ -10,6 +10,8 @@ import NotFound from "./components/NotFound";
 import ProtectedRoute from "./components/ProtectedRoute";
 import CartContext from "./context/CartContext";
 import About from './components/About'
+import Account from './components/Account'
+import SignUp from './components/SignUp'
 
 import "./App.css";
 
@@ -18,13 +20,25 @@ class App extends Component {
     cartList: [],
   };
 
-  addCartItem = (product) => {  
-    this.setState((prevState) => ({
-      cartList: [...prevState.cartList, product],
-    }));
+  addCartItem = (product) => {
+    const {cartList}=this.state 
+    const isAlreadyItem=cartList.find(each=>each.id===product.id)
+    if(!isAlreadyItem){
+      this.setState((prevState) => ({
+        cartList: [...prevState.cartList, product],
+      }));
+    }
   };
 
-  deleteCartItem = () => {};
+  deleteCartItem = (id) => {
+    const {cartList}=this.state 
+    const updatedList=cartList.filter(each=>each.id!==id)
+    this.setState({cartList:updatedList})
+  };
+
+  removeAllItems=()=>{
+    this.setState({cartList:[]})
+  }
 
   render() {
     const { cartList } = this.state;
@@ -36,14 +50,17 @@ class App extends Component {
             cartList,
             addCartItem: this.addCartItem,
             deleteCartItem: this.deleteCartItem,
+            removeAllItems: this.removeAllItems,
           }}
         >
           <Switch>
             <Route exact path="/login" component={LoginForm} />
             <ProtectedRoute exact path="/" component={Home} />
+            <ProtectedRoute exact path="/sign-up" component={SignUp} />
             <ProtectedRoute exact path="/classes" component={Classes} />
             <ProtectedRoute exact path="/products" component={Products} />
             <ProtectedRoute exact path="/about-us" component={About} />
+            <ProtectedRoute exact path="/account" component={Account} />
             <ProtectedRoute exact path="/cart" component={Cart} />
             <Route path="/not-found" component={NotFound} />
             <Redirect to="not-found" />

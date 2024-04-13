@@ -1,0 +1,54 @@
+.account-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user-details-container{
+    border: solid 1px lightgray;
+    padding: 10px;
+
+}
+.user-content-container{
+   display: flex;
+   justify-content: center;
+}
+.address-container{
+    border-left:solid 1px lightgray;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.edit-logout-buttons{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.edit-button{
+    color: #ffffff;
+    background-color: black;
+    padding: 5px;
+    border: 0px;
+}
+.logout-button{
+    color: #ffffff;
+    background-color: black;
+    padding: 5px;
+    border: 0px;
+}
+.account-tabs{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.active-tab-button{
+     color: #ffffff;
+    background-color: black;
+    padding: 5px;
+    border: 0px;
+}
+.tab-button{
+    font-weight: bold;
+    cursor: pointer;
+}

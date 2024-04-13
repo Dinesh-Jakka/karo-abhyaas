@@ -1,0 +1,24 @@
+.test-container{
+    border: 1px solid;
+    padding: 10px;
+}
+.test-con{
+      display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid;
+    justify-content: space-around;
+}
+.test{
+    display: flex;
+}
+.test-title{
+    font-weight: bold;
+}
+
+.start-button{
+    color: #ffffff;
+    background-color: black;
+    padding: 5px;
+    border: 0px;
+}

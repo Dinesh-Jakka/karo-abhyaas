@@ -4,4 +4,20 @@
     justify-content: center;
     flex-direction: column;
     margin-top: 50px;
+    padding: 10px;
 }
+.about-section-details{
+    display: flex;
+    
+    margin: 5px;
+    align-items: center;
+}
+.about-section-image{
+    height: 200px;
+    width: 50%;
+}
+.about-section-description{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
